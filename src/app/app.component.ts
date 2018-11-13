@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'book-with-angular';
+
+  clickHandler() {
+    alert("Consider me clicked")
+  }
 }
