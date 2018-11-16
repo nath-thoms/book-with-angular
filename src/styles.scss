@@ -3,6 +3,22 @@
 //     color: white;
 // }
 
+$main-color: #2aeda5d2;
+$main-text-color: white;
+$main-color-variation: #01c7ada8;
+$main-color-light: #35f29a;
+$primary-gradient: linear-gradient(
+    to right bottom,
+    #2aeda5d2,
+    #01c7ada8
+);
+
+.listing {
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
 #rentalListing {
     .title {
       font-size: 30px;
@@ -25,7 +41,7 @@
           font-weight: 500;
           font-size: 12px;
           text-transform: uppercase;
-          color: #16861a;
+          color: $main-color-variation;
         }
   
   
@@ -34,6 +50,7 @@
         .card-title {
           font-size: 19px;
           margin: 3px 0;
+          color: $main-color;
         }
   
   
